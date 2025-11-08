@@ -103,7 +103,7 @@ const resultMessage = computed(() => {
       </div>
     </div>
 <p v-if="result" class="text-2xl font-semibold mt-2">{{ resultMessage }}</p>
-  <button class="deletebtn" @click="score.player=0; score.computer=0; score.ties=0;">delete score</button>
+  <button class="deletebtn" @click="score.player=0; score.computer=0; score.ties=0; player=null; computer=null; result=null">delete score</button>
   </div>
 </template>
 
